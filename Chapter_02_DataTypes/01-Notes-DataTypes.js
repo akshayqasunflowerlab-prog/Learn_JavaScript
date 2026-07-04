@@ -3,73 +3,55 @@
 What is DataTypes?
 A data type is a classification that specifies what kind of value a variable can store and what operations can be performed on that value.
 
-Types of Data Types in JavaScript
-
 JavaScript data types are divided into two categories:
-
 1. Primitive Data Types
+2. Non-primitive Data Types
 
+1. Primitive Data Types - 
 Primitive data types store single, immutable values.
 
-String: Represents textual data.
+->  String: Represents textual data.
+    For example,  let name = "John";
 
-let name = "John";
+->  Number: Represents integers and floating-point numbers.
+    For example,  let age = 25; let price = 99.99;
 
-Number: Represents integers and floating-point numbers.
+->  Boolean: Represents logical values (true or false).
+    For example,  let isStudent = true;
 
-let age = 25;
-let price = 99.99;
+->  Undefined: A variable that has been declared but not assigned a value.
+    For example,  let x;
 
-Boolean: Represents logical values (true or false).
+->  Null: Represents an intentional absence of any value.
+    For example,  let data = null;
 
-let isStudent = true;
+->  BigInt: Represents very large integers beyond the Number limit.
+    For example,  let big = 12345678901234567890n;
 
-Undefined: A variable that has been declared but not assigned a value.
+->  Symbol: Represents a unique and immutable identifier.
+    For example,  let id = Symbol("id");
 
-let x;
 
-Null: Represents an intentional absence of any value.
-
-let data = null;
-
-BigInt: Represents very large integers beyond the Number limit.
-
-let big = 12345678901234567890n;
-
-Symbol: Represents a unique and immutable identifier.
-
-let id = Symbol("id");
-2. Non-Primitive (Reference) Data Types
-
+2. Non-Primitive (Reference) Data Types - 
 Non-primitive data types can store collections of values or more complex entities.
-
-Object: Stores data as key-value pairs.
-
-let person = {
-  name: "John",
-  age: 25
-};
-
-Array: Stores multiple values in a single variable.
-
-let colors = ["Red", "Green", "Blue"];
-
-Function: A reusable block of code that performs a specific task.
-
-function greet() {
-  console.log("Hello");
-}
-  
-String
-Number
-Boolean
-Undefined
-Null
-BigInt
-Symbol
-
-2. Non-primitive 
 JavaScript has 1 non-primitive (reference) data type:
 Object, which includes objects, arrays, and functions.
+
+->  Object: Stores data as key-value pairs.
+    For example, 
+    let person = {
+      name: "John",
+      age: 25
+    };
+
+->  Array: Stores multiple values in a single variable.
+    For example,  let colors = ["Red", "Green", "Blue"];
+
+->  Function: A reusable block of code that performs a specific task.
+    For example, 
+    function greet() {
+      console.log("Hello");
+    }
+  
 
 */
